@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.navbar{
+    width: 100vw;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 1300px
+}
+
+.signIn{
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 1300px
+}
+
+.noAccount{
+    margin-left: 15px;
+}
+
+.main{
+    margin: 35px;
+}
+
+.list-group {
+    width: 1300px;
+    margin-bottom: 45px;
+}
+
+.form{
+    margin: 25px;
+    width: 1300px;
+    justify-content: center;
+}
